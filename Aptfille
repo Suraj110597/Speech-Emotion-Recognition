@@ -1,4 +1,5 @@
 libasound2-dev
 python-dev
+libsndfile-dev
 python-numpy
 python-setuptools
