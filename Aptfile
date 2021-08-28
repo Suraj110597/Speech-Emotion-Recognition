@@ -1,1 +1,2 @@
-libsndfile1-dev
+apt-get update
+apt-get install -y libsndfile1-dev
