@@ -1,4 +1,0 @@
-*.nc
-*.DS_store
-*Models
-*vgg_fine_tuning.hdf5
