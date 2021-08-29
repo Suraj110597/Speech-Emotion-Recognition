@@ -6,11 +6,8 @@ COPY requirements.txt .
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends build-essential gcc \
                                         libsndfile1 
-
-RUN pip3 install -r requirements.txt
-
 EXPOSE 8080
 
-COPY . /app
+COPY . /appz
 
 CMD streamlit run --server.port 8080 --server.enableCORS false app.py
