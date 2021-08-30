@@ -3,7 +3,7 @@ FROM python:3.9.6
 WORKDIR /app
 
 COPY requirements.txt .
-apt-get install libsndfile1
+
 RUN apt-get update -y && apt-get install -y --no-install-recommends build-essential gcc \ libsndfile1 
 EXPOSE 8080
 
