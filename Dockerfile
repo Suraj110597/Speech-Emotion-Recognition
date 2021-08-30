@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-RUN apt-get update -y && apt-get install -y --no-install-recommends build-essential gcc \ libsndfile1 
+RUN apt-get update && apt-get install -y libsndfile1-dev 
 EXPOSE 8080
 
 COPY . /app
