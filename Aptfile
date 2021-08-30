@@ -1,2 +1,3 @@
-conda install -c conda-forge
-librosa
+set heroku/python
+add --index 1 heroku-community/apt
+libsndfile1
