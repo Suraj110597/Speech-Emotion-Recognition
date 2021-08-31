@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+librosa
+sklearn
+matplotlib
+tensorflow==2.6.0
+keras==2.6
+jsons
