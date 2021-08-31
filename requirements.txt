@@ -41,6 +41,7 @@ packaging==20.9
 pandas==1.2.3
 pickleshare==0.7.5
 Pillow==8.2.0
+opencv-python-headless==4.5.1.48
 pydeck==0.6.1
 Pygments==2.8.1
 pyjokes==0.6.0
