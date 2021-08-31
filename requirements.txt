@@ -86,5 +86,5 @@ decorator==4.4.2
 ffmpeg-python==0.2.0
 Flask-RESTful==0.3.8
 future==0.18.2
-itsdangerous==1.1.0
+itsdangerous>=2.0
 joblib==0.14.1
