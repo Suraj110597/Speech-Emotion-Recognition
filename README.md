@@ -51,9 +51,9 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
   <img width="460" height="300" src="https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Augmented_Model_Confusion_Matrix.png">
 </p>
 
-3)	See **Uploads** for all .png and sample audio files
+3)  Implemented transfer learning algorithms on spectogram images of audio files and implemented VGG16 and VGG19 Model and performed Data augmentation on spectogram images and implemented VGG19 fine tuning.
 
-4)	See **Transfer_Learning**: Currently working in Notebook. Applied VGG16 and Inception pre-trained models for higher accuracy.
+4)	Implemented Data augmentation like noise, stretch on different audio files and implented transfer learning models like VGG19 and Inception.
 
 ## Conclusion
 •	 VGG19 (fine tuning + augmentation) was giving the best accuracy score of 82% and solved the problems like overfitting to some extent. 
