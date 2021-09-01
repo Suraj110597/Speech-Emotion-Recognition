@@ -1,5 +1,6 @@
 # Speech Emotion Recognition System
-Muriel Kosaka
+
+Sagar Rokad
 
 ## Project Overview
 
