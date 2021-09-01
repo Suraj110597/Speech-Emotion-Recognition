@@ -1,6 +1,6 @@
 # Speech Emotion Recognition System
 
-Sagar Rokad
+**Sagar Rokad**
 
 ## Project Overview
 
