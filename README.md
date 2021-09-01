@@ -56,7 +56,16 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 4)	See **Transfer_Learning**: Currently working in Notebook. Applied VGG16 and Inception pre-trained models for higher accuracy.
 
 ## Conclusion
-Using feature extraction methods by itself did not achieve a high accuracy score within my CNN model, but using data augmentation methods did improve the accuracy score to 53% however it was overfitting the data. This model needs to be improved upon before being applied towards making an app to detect emotion in real time. Fine tuning the VGG-16 architecture with image augmentation improved the overall model accuracy to 81%/
+•	 VGG19 (fine tuning + augmentation) was giving the best accuracy score of 82% and solved the problems like overfitting to some extent. 
+
+•	 It's quite difficult to get the accuracy of more than 90% due to lack of data.
+
+•	 To solve problems like over-fitting that we had seen in almost every model, we need more real time data. 
+
+•	 Noise Adding ,Pitching and Shifting for the imbalanced data was helping in achieving a better result. 
+
+•	 Computational cost was much high resulting in several runtime crashes but we’re able to get our best model for deployment.
+
 
 ## Limitations
 Limitations include not using feature selection to reduce the dimensionality of my augmented CNN which may have improved learning performance. Another limitation included using minimal data, the RAVDESS Dataset has only 1,440 files which may be why there was overfitting of the data. Additional datasets could have been utilized.
