@@ -12,7 +12,7 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 
 ## Process
 
-1)	See **1_base_model.ipynb**: Loaded audio files, created visualizations, conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **audio.csv**) and built inital 1D CNN Model. Obtained an accuracy score of 38% with the model having difficulty classifying calm, surprised, angry, and digust.
+1)	See **1_base_model.ipynb**: Loaded audio files, created visualizations, conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **audio.csv**) and built inital 1D CNN Model. Obtained an accuracy score of 52.43% with the model having difficulty classifying calm, surprised, angry, and digust.
 
 - **EDA**
 
@@ -26,11 +26,11 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
   <img width="460" height="300" src="https://github.com/mkosaka1/capstone_project/blob/master/Uploads/EDA_Photos/MelSpec_FemaleCalm.png">
 </p>
 
-2) See **2_data_augmentation.ipynb**: Implemented data augmentation methods including adding noise, speed and pitch, and stretch to all audio files and used feature extraction methods to turn audio files into images to feed into 1D CNN Model. Obtained an accuracy score of 80%, but overfitting the data as seen in graph.
+2) See **2_data_augmentation.ipynb**: Implemented data augmentation methods including adding noise, speed and pitch, and stretch to all audio files and used feature extraction methods to turn audio files into images to feed into 1D CNN Model. Obtained an accuracy score of 51.74%, but overfitting the data as seen in graph.
 
 3) See **3_Audio_to_spectogram_images.ipynb**: Converted audio files into spectogram images and storing it in drive.
 
-4) See **4_Transfer_Learning_on_Spectogram_images.ipynb**: Implemented transfer learning algorithms on spectogram images of audio files and implemented VGG16 and VGG19 Model and performed Data augmentation on spectogram images and implemented VGG19 fine tuning.
+4) See **4_Transfer_Learning_on_Spectogram_images.ipynb**: Implemented transfer learning algorithms on spectogram images of audio files and implemented VGG16 and VGG19 Model and performed Data augmentation on spectogram images and implemented VGG19 fine tuning and got best accuracy of 82% in VGG19 (fine tuning + augmentation)
 
 5) See **5_Transfer_learning_on_data_augmentation.ipynb**:	Implemented Data augmentation like noise, stretch on different audio files and implented transfer learning models like VGG19 and Inception.
 
