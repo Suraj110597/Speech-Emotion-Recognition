@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY requirements.txt ./requirements.txt
 
-RUN pip3 install -r requirments.txt  --use-feature=2020-resolver
 
+RUN pip3 install -r requirements.txt
 RUN apt-get update && apt-get install -y libsndfile1-dev
 
 EXPOSE 8080
