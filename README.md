@@ -14,7 +14,7 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 
 1)	See **1_base_model.ipynb**: Loaded audio files, created visualizations, conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **audio.csv**) and built inital 1D CNN Model. Obtained an accuracy score of 38% with the model having difficulty classifying calm, surprised, angry, and digust.
 
-- *EDA*
+- **EDA**
 
 
 <p align="center">
@@ -26,30 +26,7 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
   <img width="460" height="300" src="https://github.com/mkosaka1/capstone_project/blob/master/Uploads/EDA_Photos/MelSpec_FemaleCalm.png">
 </p>
 
-
-- *Initial Model*
-
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Initial_Model_Accuracy.png">
-</p>
-
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Initial_Model_Confusion_Matrix.png">
-</p>
-
 2) See **2_data_augmentation.ipynb**: Implemented data augmentation methods including adding noise, speed and pitch, and stretch to all audio files and used feature extraction methods to turn audio files into images to feed into 1D CNN Model. Obtained an accuracy score of 80%, but overfitting the data as seen in graph.
-
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Augmented_Model_Accuracy.png">
-</p>
-
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Augmented_Model_Confusion_Matrix.png">
-</p>
 
 3) See **3_Audio_to_spectogram_images.ipynb**: Converted audio files into spectogram images and storing it in drive.
 
