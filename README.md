@@ -57,6 +57,15 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 
 5) See **5_Transfer_learning_on_data_augmentation.ipynb**:	Implemented Data augmentation like noise, stretch on different audio files and implented transfer learning models like VGG19 and Inception.
 
+## Challenges
+
+• As this project is not a stand-alone data science project, it required little to medium domain knowledge. Understanding Mfccs, Mel scale is very important for feature selection.
+ 
+• Limitations include not using feature selection to reduce the dimensionality of our augmented CNN which may have improved learning performance. 
+
+• During deployment in Heroku and Azure, there were problems as some additional libraries needed to installed. After installing these libraries , some of previous  requirements had to be downgraded in order to be compatible with the installed ones, that’s why we deployed on GCP.
+
+
 ## Conclusion
 •	 VGG19 (fine tuning + augmentation) was giving the best accuracy score of 82% and solved the problems like overfitting to some extent. 
 
@@ -67,11 +76,3 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 •	 Noise Adding ,Pitching and Shifting for the imbalanced data was helping in achieving a better result. 
 
 •	 Computational cost was much high resulting in several runtime crashes but we’re able to get our best model for deployment.
-
-
-## Limitations
-Limitations include not using feature selection to reduce the dimensionality of my augmented CNN which may have improved learning performance. Another limitation included using minimal data, the RAVDESS Dataset has only 1,440 files which may be why there was overfitting of the data. Additional datasets could have been utilized.
-
-## Next Steps
-
-Next steps for this project include building a front-end for user interaction, then work towards building an app to detect emotion. Afterwards, I would like to be able to build system that can recognize emotion in real time and then calculate degree of affection such as love, truthfulness, and friendship of the person you are talking to.
