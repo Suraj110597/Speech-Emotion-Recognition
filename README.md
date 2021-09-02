@@ -1,6 +1,6 @@
 # Speech Emotion Recognition System
 
-**Suraj Kumar Mishra**, 
+**Suraj Kumar Mishra*, 
 **Sagar Rokad**,  
 **Asim Siddiqui** 
 
