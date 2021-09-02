@@ -1,7 +1,7 @@
 # Speech Emotion Recognition System
 
-**Suraj Kumar Mishra**
-**Sagar Rokad** 
+**Suraj Kumar Mishra**, 
+**Sagar Rokad**,  
 **Asim Siddiqui** 
 
 ## Project Overview
